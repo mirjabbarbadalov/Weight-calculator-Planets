@@ -36,43 +36,43 @@ inputButton.addEventListener('click',function(event){
     planetName.textContent = selectInput.value.toUpperCase();
 
     if(selectInput.value === 'mercury'){
-      weightText.textContent = parseFloat(kilogramInput.value)*3.7.toFixed(2);
+      weightText.textContent = (parseFloat(kilogramInput.value)*3.7).toFixed(2);
     }
 
     if(selectInput.value === 'venus'){
-      weightText.textContent = kilogramInput.value*8.9;
+      weightText.textContent = (parseFloat(kilogramInput.value)*8.9).toFixed(2);
     }
 
     if(selectInput.value === 'earth'){
-      weightText.textContent = kilogramInput.value*9.81;
+      weightText.textContent = (parseFloat(kilogramInput.value)*9.81).toFixed(2);
     }
 
     if(selectInput.value === 'mars'){
-      weightText.textContent = kilogramInput.value*	3.73;
+      weightText.textContent = (parseFloat(kilogramInput.value)*3.73).toFixed(2);
     }
 
     if(selectInput.value === 'jupiter'){
-      weightText.textContent = kilogramInput.value*	25.92;
+      weightText.textContent = (parseFloat(kilogramInput.value)*25.92).toFixed(2);
     }
 
     if(selectInput.value === 'saturn'){
-      weightText.textContent = kilogramInput.value*	10.44;
+      weightText.textContent = (parseFloat(kilogramInput.value)*10.44).toFixed(2);
     }
 
     if(selectInput.value === 'uranus'){
-      weightText.textContent = kilogramInput.value*	8.69;
+      weightText.textContent = (parseFloat(kilogramInput.value)*8.69).toFixed(2);
     }
 
     if(selectInput.value === 'neptune'){
-      weightText.textContent = kilogramInput.value*	13.3;
+      weightText.textContent = (parseFloat(kilogramInput.value)*13.3).toFixed(2);
     }
 
     if(selectInput.value === 'pluto'){
-      weightText.textContent = kilogramInput.value*	0.63;
+      weightText.textContent = (parseFloat(kilogramInput.value)*0.63).toFixed(2);
     }
 
     if(selectInput.value === 'moon'){
-      weightText.textContent = kilogramInput.value*	1.625;
+      weightText.textContent = (parseFloat(kilogramInput.value)*1.625).toFixed(2);
     }
 
   }
