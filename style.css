@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./images/galaxy.gif);
+  background-position: center;
+  background-repeat:repeat;
+  background-size: contain;
+  font-family: 'Montserrat';
+}
+
+header{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text{
+  color: white;
+  padding: 20px;
+  font-weight: 700;
+}
+
+form{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+select{
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+option{
+  background-color: rgba(148, 144, 144, 0.826);
+  font-weight: 500;
+}
+
+
+input{
+  border:none;
+  font-family:'Montserrat';
+  width: 200px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input:active{
+  border: none;
+}
+
+#input-btn{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+#input-btn:hover{
+  background-color: rgb(56, 186, 142);
+  cursor: pointer;
+}
+
+main{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-section{
+  width:50vw;
+  background-color:rgba(128, 128, 128, 0.429);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+}
+
+.error-section__text{
+  text-align: center;
+}
+
+.image-section{
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.278);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+
+.image-info__section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-text{
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.image-info__section{
+  width: 35%;
+  background-color: rgba(98, 93, 93, 0.278);
+  display: none;
+}
+
+.weight-place{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(98, 93, 93, 0.692);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weight-text{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+

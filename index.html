@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Solar System: Document Object Model:30 Days Of JavaScript</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="header-text">Calculate a weight of an object on a planet</h1>
+
+      <form action="">
+        <input
+          type="text"
+          name="kilogram"
+          id="kilogram"
+          placeholder="Mass in kilogram"
+        />
+        <select name="planet" id="planet-input">
+          <option class="planet-option" value="empty">--select planet--</option>
+          <option class="planet-option" value="mercury">Mercury</option>
+          <option class="planet-option" value="venus">Venus</option>
+          <option class="planet-option" value="earth">Earth</option>
+          <option class="planet-option" value="mars">Mars</option>
+          <option class="planet-option" value="jupiter">Jupiter</option>
+          <option class="planet-option" value="saturn">Saturn</option>
+          <option class="planet-option" value="uranus">Uranus</option>
+          <option class="planet-option" value="neptune">Neptune</option>
+          <option class="planet-option" value="pluto">Pluto</option>
+          <option class="planet-option" value="moon">Moon</option>
+        </select>
+        <input id="input-btn" type="submit" value="Calculate weight" />
+      </form>
+    </header>
+
+    <main>
+      <div class="error-section">
+        <p class="error-section__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At, placeat?
+        </p>
+      </div>
+
+      <div class="image-section">
+        <img class="planet-img" src="./images/earth.png" alt="" />
+
+        <div class="image-info__section">
+          <p class="info-text">
+            The weight on <span class="planet-name"></span>
+          </p>
+
+          <div class="weight-place">
+            <p class="weight-text"><span class="weight-number">700</span>N</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
