@@ -36,7 +36,7 @@ inputButton.addEventListener('click',function(event){
     planetName.textContent = selectInput.value.toUpperCase();
 
     if(selectInput.value === 'mercury'){
-      weightText.textContent = kilogramInput.value*3.7;
+      weightText.textContent = parseFloat(kilogramInput.value)*3.7.toFixed(2);
     }
 
     if(selectInput.value === 'venus'){
